@@ -1,0 +1,58 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>United Nations Ocean Conference 2025</title>
+</head>
+<body>
+  <header>
+    <h1>Beyond the Surface: Ocean Data Stories</h1>
+    <h2>Product of</h2>
+    <div class="logo-container">
+      <img src="https://github.com/mdelorme-ch/Dataviz-Webinar-Series/blob/main/docs/gallery/maps/DatavizLogo.png?raw=true" alt="Dataviz Logo" class="dataviz-logo">
+    </div>
+</header>  
+ 
+  
+  <div class="gallery" id="gallery">
+    <!-- Images will be rendered here dynamically -->
+  </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-arrow left-arrow" id="prev-btn">&#8249;</button>
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="Map Image">
+        <div class="lightbox-title" id="lightbox-title"></div>
+        <div class="lightbox-description" id="lightbox-description"></div>
+        <button class="lightbox-arrow right-arrow" id="next-btn">&#8250;</button>
+      </div>
+      
+
+
+      <script src="mapData.js"></script>
+      <script src="scripts.js"></script>
+  
+
+</body>
+ <footer class="footer bg-white text-gray-800">
+  <div class="footer-content">
+  </div>
+
+  <div class="footer-logo">
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://github.com/mdelorme-ch/Dataviz-Webinar-Series/blob/main/docs/gallery/maps/LogoBar.png?raw=true/769x96"
+        alt="Main Logo"
+        class="footer-image"
+      />
+    </a>
+  </div>
+</footer>
+
+</html>
